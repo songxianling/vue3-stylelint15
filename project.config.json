@@ -1,0 +1,23 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "mini3",
+  "description": "mini3",
+  "appid": "",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+		"bigPackageSizeSupport": true,
+		"ignoreDevUnusedFiles": false,
+		"ignoreUploadUnusedFiles": false
+  },
+  "compileType": "miniprogram",
+	"condition": {
+		"miniprogram": {
+			
+		}
+	}
+}

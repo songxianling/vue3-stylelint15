@@ -1,0 +1,15 @@
+{
+  "vue.inlayHints.optionsWrapper": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+    "source.fixAll": true
+  },
+  // stylelint配置
+  "stylelint.enable": true,
+  // 关闭编辑器内置样式检查（避免与stylelint冲突）
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "less", "postcss", "scss", "sass", "vue"],
+  "stylelint.snippet": ["css", "less", "postcss", "scss"]
+}

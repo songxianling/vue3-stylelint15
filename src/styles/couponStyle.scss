@@ -1,0 +1,87 @@
+.item {
+	position: relative;
+	width: 350px;
+	height: 76px;
+	margin: 10px auto 0;
+	background: url('https://appletimage.lz517.com/Diana/coupon-bg-default.png') no-repeat;
+	background-size: 100% 100%;
+	&.disabled{
+		background: url('https://appletimage.lz517.com/Diana/coupon-bg-disabled.png') no-repeat;
+		background-size: 100% 100%;
+		color: #B9B9B9;
+		.l{
+			color: #B9B9B9;
+		}
+		.r{
+			.name, .secondary, .apply-to-btn {
+				color: #B9B9B9;
+			}
+		}
+	}
+	.lose-icon {
+		position: absolute;
+		top: 12px;
+		right: 10px;
+		width: 56px;
+	}
+	.status-img {
+		position: absolute;
+		top: 12px;
+		right: 5px;
+		width: 56px;
+		height: 42px;
+		&.new {
+			top: 6px;
+			width: 65px;
+			height: 55px;
+		}
+	}
+	.l {
+		position: absolute;
+		top: 0;
+		left: 5px;
+		width: 106px;
+		height: 76px;
+		line-height: 76px;
+		text-align: center;
+		font-size: 17px;
+		color: #ff6200;
+		font-weight: 800;
+	}
+	.r {
+		position: absolute;
+		top: 0px;
+		left: 120px;
+		width: calc(100% - 120px);
+		.name {
+			margin: 10px 0 2px;
+			font-size: 14px;
+			font-weight: 800;
+			color: #333333;
+			line-height: 20px;
+		}
+		.secondary {
+			position: relative;
+			color: #666666;
+			margin-top: 2px;
+			font-size: 10px;
+			.detail-btn{
+				position: absolute;
+				top: 0px;
+				right: 10px;
+				font-size: 12px;
+				color: #4A6CFC;
+				text-decoration: underline;
+			}
+		}
+		.apply-to-btn {
+			width: 100%;
+			text-align: left;
+			font-size: 10px;
+			margin-top: 4px;
+			color: #3f63fc;
+			line-height: 18px;
+			text-decoration: underline;
+		}
+	}
+}
